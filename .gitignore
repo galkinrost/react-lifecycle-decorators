@@ -31,3 +31,10 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# IDE directory
+.idea
+
+# Buid
+lib
+dist
