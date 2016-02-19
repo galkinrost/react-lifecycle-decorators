@@ -10,17 +10,9 @@ var reactExternal = {
     amd: 'react'
 };
 
-var reduxExternal = {
-    root: 'Redux',
-    commonjs2: 'redux',
-    commonjs: 'redux',
-    amd: 'redux'
-};
-
 var config = {
     externals: {
-        'react': reactExternal,
-        'redux': reduxExternal
+        'react': reactExternal
     },
     module: {
         loaders: [
