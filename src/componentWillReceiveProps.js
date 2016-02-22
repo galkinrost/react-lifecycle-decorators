@@ -1,7 +1,7 @@
-import wrapperCreator from './wrapperCreator';
+import wrapperCreator from './wrapperCreator'
 
-const componentWillReceiveProps = wrapperCreator('componentWillReceiveProps', (handler)=>function (nextProps) {
-    handler(nextProps, this.props);
-});
+const componentWillReceiveProps = wrapperCreator(`componentWillReceiveProps`, (handler) => function componentWillReceivePropsDecorator(nextProps) {
+    handler(nextProps, this.props)
+})
 
-export default componentWillReceiveProps;
+export default componentWillReceiveProps

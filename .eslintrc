@@ -1,0 +1,6 @@
+{
+  "extends": "babo",
+  "rules": {
+    "no-invalid-this": 0
+  }
+}

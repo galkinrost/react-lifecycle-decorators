@@ -1,7 +1,7 @@
-import wrapperCreator from './wrapperCreator';
+import wrapperCreator from './wrapperCreator'
 
-const componentDidMount = wrapperCreator('componentDidMount', (handler)=> function () {
-    handler(this.props);
-});
+const componentDidMount = wrapperCreator(`componentDidMount`, (handler) => function componentDidMountDecorator() {
+    handler(this.props)
+})
 
-export default componentDidMount;
+export default componentDidMount

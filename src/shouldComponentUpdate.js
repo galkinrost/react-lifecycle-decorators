@@ -1,7 +1,7 @@
-import wrapperCreator from './wrapperCreator';
+import wrapperCreator from './wrapperCreator'
 
-const shouldComponentUpdate = wrapperCreator('shouldComponentUpdate', (handler)=>function (nextProps) {
-    return handler(nextProps, this.props);
-});
+const shouldComponentUpdate = wrapperCreator(`shouldComponentUpdate`, (handler) => function shouldComponentUpdateDecorator(nextProps) {
+    return handler(nextProps, this.props)
+})
 
-export default shouldComponentUpdate;
+export default shouldComponentUpdate

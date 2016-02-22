@@ -1,17 +1,17 @@
-import componentWillMount from './componentWillMount';
-import componentDidMount from './componentDidMount';
-import componentWillReceiveProps from './componentWillReceiveProps';
-import shouldComponentUpdate from './shouldComponentUpdate';
-import componentWillUpdate from './componentWillUpdate';
-import componentDidUpdate from './componentDidUpdate';
-import componentWillUnmount from './componentWillUnmount';
+import componentDidMount from './componentDidMount'
+import componentDidUpdate from './componentDidUpdate'
+import componentWillMount from './componentWillMount'
+import componentWillReceiveProps from './componentWillReceiveProps'
+import componentWillUnmount from './componentWillUnmount'
+import componentWillUpdate from './componentWillUpdate'
+import shouldComponentUpdate from './shouldComponentUpdate'
 
 export {
-    componentWillMount,
     componentDidMount,
-    componentWillReceiveProps,
-    shouldComponentUpdate,
-    componentWillUpdate,
     componentDidUpdate,
-    componentWillUnmount
-};
+    componentWillMount,
+    componentWillReceiveProps,
+    componentWillUnmount,
+    componentWillUpdate,
+    shouldComponentUpdate
+}

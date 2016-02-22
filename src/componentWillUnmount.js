@@ -1,7 +1,7 @@
-import wrapperCreator from './wrapperCreator';
+import wrapperCreator from './wrapperCreator'
 
-const componentWillUnmount = wrapperCreator('componentWillUnmount', (handler)=>function () {
-    handler(this.props);
-});
+const componentWillUnmount = wrapperCreator(`componentWillUnmount`, (handler) => function componentWillUnmountDecorator() {
+    handler(this.props)
+})
 
-export default componentWillUnmount;
+export default componentWillUnmount
