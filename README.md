@@ -1,4 +1,4 @@
-# Lifecycle decorators
+# Lifecycle decorators [![Build Status](https://travis-ci.org/babotech/react-lifecycle-decorators.svg?branch=master)](https://travis-ci.org/babotech/react-lifecycle-decorators)
 
 Lifecycle decorators for stateless components
 
